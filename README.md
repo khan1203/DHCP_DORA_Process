@@ -16,6 +16,8 @@ The DHCP IP allocation process consists of four main messages:
 
 ## 1. DHCP Discover Message
 
+![DHCP DORA Process – Step 1](https://ipwithease.com/wp-content/uploads/2020/06/DORA-PROCESS-STEP1.jpg.webp)
+
 - The first message sent by the **DHCP client**.  
 - **Purpose:** To locate available DHCP servers.  
 - **Type:** Broadcast (255.255.255.255).  
@@ -24,12 +26,6 @@ The DHCP IP allocation process consists of four main messages:
   - Request for network configuration  
   - Indication that the client has no IP  
 
-### Step 1: DHCP Discover
-
-![DHCP DORA Process – Step 1](https://ipwithease.com/wp-content/uploads/2020/06/DORA-PROCESS-STEP1.jpg.webp)
-
-*Client sends a DHCP Discover message to find available DHCP servers.*
-
 ### Explanation:
 When a device joins a network, it does not know the DHCP server’s address.  
 So, it broadcasts a **DHCPDISCOVER** message to reach all DHCP servers.
@@ -37,6 +33,8 @@ So, it broadcasts a **DHCPDISCOVER** message to reach all DHCP servers.
 ---
 
 ## 2. DHCP Offer Message
+
+![DHCP DORA Process – Step 2](https://ipwithease.com/wp-content/uploads/2020/06/DORA-PROCESS-STEP2.jpg.webp)
 
 - Sent by the **DHCP server** in response to the discovery message.  
 - **Purpose:** To offer an IP address lease to the client.  
@@ -57,6 +55,8 @@ It informs the client:
 
 ## 3. DHCP Request Message
 
+![DHCP DORA Process – Step 3](https://ipwithease.com/wp-content/uploads/2020/06/DORA-PROCESS-STEP3.jpg.webp)
+
 *(Sometimes mistakenly called “recovery message,” but the correct term is **DHCP Request**)*
 
 - Sent by the **client**.  
@@ -74,6 +74,8 @@ If multiple offers are received, the client chooses one and broadcasts a **DHCPR
 ---
 
 ## 4. DHCP Acknowledgement (ACK) Message
+
+![DHCP DORA Process – Step 4](https://ipwithease.com/wp-content/uploads/2020/06/DORA-PROCESS-STEP4.jpg.webp)
 
 - Sent by the **selected DHCP server**.  
 - **Purpose:** To confirm the IP lease and finalize configuration.  
