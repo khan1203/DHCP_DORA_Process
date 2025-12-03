@@ -26,9 +26,9 @@ The DHCP IP allocation process consists of four main messages:
 
 ### Step 1: DHCP Discover
 
-![DHCP Discover Process](attachment:2a96e08b-d09b-4207-bc9a-e492eb7a70b1.png)
+![DHCP DORA Process – Step 1](https://ipwithease.com/wp-content/uploads/2020/06/DORA-PROCESS-STEP1.jpg.webp)
 
-*The client broadcasts a DHCP Discover message to locate the DHCP server.*
+*Client sends a DHCP Discover message to find available DHCP servers.*
 
 ### Explanation:
 When a device joins a network, it does not know the DHCP server’s address.  
