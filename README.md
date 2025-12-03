@@ -24,6 +24,12 @@ The DHCP IP allocation process consists of four main messages:
   - Request for network configuration  
   - Indication that the client has no IP  
 
+### Step 1: DHCP Discover
+
+![DHCP Discover Process](attachment:2a96e08b-d09b-4207-bc9a-e492eb7a70b1.png)
+
+*The client broadcasts a DHCP Discover message to locate the DHCP server.*
+
 ### Explanation:
 When a device joins a network, it does not know the DHCP server’s address.  
 So, it broadcasts a **DHCPDISCOVER** message to reach all DHCP servers.
