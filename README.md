@@ -9,6 +9,10 @@ A DHCP server manages a pool of IPs and provides them to clients using a process
 # DHCP Message Exchange (DORA)
 
 The DHCP IP allocation process consists of four main messages:
+1. Discover msg
+2. Offer msg
+3. Request msg
+4. Acknowlegement msg
 
 ## 1. DHCP Discover Message
 
